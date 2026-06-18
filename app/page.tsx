@@ -3,9 +3,7 @@ import ClientEffects from "./ClientEffects";
 const CV_URL = "/Mikolaj_Michalak_CV.pdf";
 const EMAIL = "mikolaj.michalak.dev@gmail.com";
 const GITHUB_URL = "https://github.com/Majkan1";
-// TODO: swap for the up-to-date LinkedIn URL.
-const LINKEDIN_URL =
-  "https://www.linkedin.com/in/miko%C5%82aj-michalak-5278513b5/";
+const LINKEDIN_URL = "https://www.linkedin.com/in/mikolaj-michalak";
 
 function IconExternal() {
   return (
@@ -48,7 +46,7 @@ function IconDownload() {
 }
 
 const marqueeItems = [
-  "React 18",
+  "React 19",
   "TypeScript",
   "Next.js 16",
   "Tailwind CSS",
@@ -94,7 +92,7 @@ export default function Home() {
             </a>
           </li>
         </ul>
-        <a href={`mailto:${EMAIL}`} className="nav-cta">
+        <a href="#contact" className="nav-cta">
           Hire Me →
         </a>
       </nav>
@@ -127,22 +125,12 @@ export default function Home() {
               <div className="stat-label">Live Projects</div>
             </div>
             <div className="stat-item">
-              <div className="stat-num">
-                476<span>+</span>
-              </div>
-              <div className="stat-label">Contributions</div>
-            </div>
-            <div className="stat-item">
               <div className="stat-num">B2</div>
               <div className="stat-label">English</div>
             </div>
           </div>
         </div>
 
-        <div className="scroll-hint">
-          <span>Scroll</span>
-          <div className="scroll-line"></div>
-        </div>
       </section>
 
       {/* MARQUEE */}
@@ -212,11 +200,11 @@ export default function Home() {
               </div>
               <div className="info-row">
                 <span className="info-key">Focus</span>
-                <span className="info-val">Full-Stack · Next.js / TypeScript</span>
+                <span className="info-val">Full-Stack</span>
               </div>
               <div className="info-row">
                 <span className="info-key">Stack</span>
-                <span className="info-val">Prisma · PostgreSQL · Supabase</span>
+                <span className="info-val">Next.js · Prisma · Supabase</span>
               </div>
               <div className="info-row">
                 <span className="info-key">English</span>
@@ -254,7 +242,7 @@ export default function Home() {
               modern state patterns.
             </div>
             <div className="skill-tags">
-              <span className="skill-tag">React 18</span>
+              <span className="skill-tag">React 19</span>
               <span className="skill-tag">Hooks</span>
               <span className="skill-tag">React Router v6</span>
               <span className="skill-tag">Context API</span>
@@ -475,7 +463,7 @@ export default function Home() {
               a fully responsive layout. 131 commits and 110+ deployments.
             </p>
             <div className="project-stack">
-              <span className="stack-tag">React 18</span>
+              <span className="stack-tag">React 19</span>
               <span className="stack-tag">JavaScript</span>
               <span className="stack-tag">REST API</span>
               <span className="stack-tag">GitHub Pages</span>
@@ -514,7 +502,7 @@ export default function Home() {
               model.
             </p>
             <div className="project-stack">
-              <span className="stack-tag">React 18</span>
+              <span className="stack-tag">React 19</span>
               <span className="stack-tag">TypeScript</span>
               <span className="stack-tag">React Router v6</span>
               <span className="stack-tag">REST API</span>
@@ -553,7 +541,7 @@ export default function Home() {
               codebase.
             </p>
             <div className="project-stack">
-              <span className="stack-tag">React 18</span>
+              <span className="stack-tag">React 19</span>
               <span className="stack-tag">TypeScript</span>
               <span className="stack-tag">CSS-in-JS</span>
               <span className="stack-tag">Vite</span>
