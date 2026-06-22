@@ -1,4 +1,3 @@
-// Inline SVG icon components used across the site.
 
 export function IconExternal() {
   return (

@@ -1,6 +1,3 @@
-// Central content + config for the portfolio.
-// Edit text/links here — components just render this data.
-
 export const site = {
   name: "Mikołaj Michalak",
   role: "Full-Stack Developer",

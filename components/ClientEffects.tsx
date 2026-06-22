@@ -2,12 +2,6 @@
 
 import { useEffect } from "react";
 
-/**
- * Renders the custom cursor and wires up the interactive behaviour from the
- * original design: cursor follow, hover states, nav blur-on-scroll, and the
- * reveal-on-scroll IntersectionObserver. All effects run after mount against
- * the server-rendered DOM, so the page content stays SEO-friendly.
- */
 export default function ClientEffects() {
   useEffect(() => {
     const cursor = document.getElementById("cursor");
