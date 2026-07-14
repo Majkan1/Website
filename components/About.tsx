@@ -6,8 +6,8 @@ const pillClass =
 
 function InfoRow({ label, value }: { label: string; value: React.ReactNode }) {
   return (
-    <div className="flex items-center justify-between border-b border-line py-[18px]">
-      <span className="font-mono text-[11px] uppercase tracking-[0.1em] text-dim">
+    <div className="flex items-center justify-between border-b border-line py-4.5">
+      <span className="font-mono text-[11px] uppercase tracking-widest text-dim">
         {label}
       </span>
       <span className="text-right text-sm text-ink">{value}</span>
