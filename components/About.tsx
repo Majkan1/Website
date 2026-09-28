@@ -26,7 +26,7 @@ export default function About() {
           <div className="section-label">01 — About</div>
           <h2 className="section-title mb-8">Who I am</h2>
           <p className="mb-12 text-[17px] leading-[1.8] text-muted [&_strong]:font-medium [&_strong]:text-ink">
-            I&apos;m a Computer Science student at{" "}
+            I&apos;m an ICT (Teleinformatics) student at{" "}
             <strong>Wrocław University of Science and Technology</strong> and a
             self-taught <strong>full-stack developer</strong> working in the
             Next.js / TypeScript stack. I design, build and ship real, deployed
@@ -37,7 +37,7 @@ export default function About() {
           <p className="mb-12 text-[17px] leading-[1.8] text-muted [&_strong]:font-medium [&_strong]:text-ink">
             I care about clean, strictly-typed code, secure data handling and a
             polished user experience. I&apos;m looking for a{" "}
-            <strong>remote full-stack role — anywhere in the world</strong> —
+            <strong>full-stack developer role</strong> —
             where I can take ownership, learn from a strong team, and have
             visible impact on a real product. I work comfortably in English.
           </p>
@@ -78,15 +78,15 @@ export default function About() {
 
         <div className="reveal reveal-delay-2 pt-20 mobile:pt-0">
           <div className="border-t border-line">
-            <InfoRow label="Location" value="Wrocław, Poland · Remote 🇵🇱" />
-            <InfoRow label="University" value="WUST — CS" />
+            <InfoRow label="Location" value="Wrocław, Poland 🇵🇱" />
+            <InfoRow label="University" value="WUST — ICT (Teleinformatics)" />
             <InfoRow label="Focus" value="Full-Stack" />
             <InfoRow label="Stack" value="Next.js · Prisma · Supabase" />
             <InfoRow
               label="English"
               value={
                 <>
-                  <span className="font-mono text-accent">B2–C1</span>{" "}
+                  <span className="font-mono text-accent">B2</span>{" "}
                   Professional working
                 </>
               }
@@ -95,7 +95,7 @@ export default function About() {
               label="Goal"
               value={
                 <span className="font-mono text-accent">
-                  Remote full-stack role abroad
+                  Full-stack role
                 </span>
               }
             />

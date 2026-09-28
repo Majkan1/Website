@@ -9,7 +9,7 @@ export default function Hero() {
       </div>
 
       <div className="mb-8 inline-flex animate-[fadeUp_0.7s_0.2s_forwards] items-center gap-2 font-mono text-xs uppercase tracking-[0.1em] text-accent opacity-0 before:h-px before:w-6 before:bg-accent before:content-['']">
-        Open to remote work · Worldwide
+        Open to work
       </div>
 
       <h1 className="mb-8 animate-[fadeUp_0.7s_0.35s_forwards] font-display text-[clamp(52px,8vw,110px)] font-extrabold leading-[0.92] tracking-[-0.04em] text-ink opacity-0">
@@ -23,8 +23,7 @@ export default function Hero() {
           <strong>Full-Stack Developer</strong> building and shipping real,
           deployed products with <strong>Next.js</strong>,{" "}
           <strong>TypeScript</strong>, <strong>Prisma</strong> and{" "}
-          <strong>PostgreSQL</strong>. Open to remote roles — anywhere in the
-          world.
+          <strong>PostgreSQL</strong>. Open to on-site, hybrid and remote roles.
         </p>
         <div className="flex shrink-0 gap-12 mobile:justify-start">
           <div className="text-right">
