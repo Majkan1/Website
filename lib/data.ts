@@ -138,7 +138,7 @@ export const projects: Project[] = [
     num: "03",
     title: "Real-Time Weather Dashboard",
     description:
-      "Live weather app using the Open-Meteo REST API. Features 500ms debounce, dynamic day/night weather icons, memoised components, and a fully responsive layout. 131 commits and 110+ deployments.",
+      "Live weather app using the Open-Meteo REST API. Features 500ms debounce, dynamic day/night weather icons, memoised components, and a fully responsive layout.",
     stack: ["React 19", "JavaScript", "REST API", "GitHub Pages", "CSS"],
     liveUrl: "https://majkan1.github.io/weather-app/",
     githubUrl: "https://github.com/Majkan1/weather-app",
