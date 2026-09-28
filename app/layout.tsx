@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Mikołaj Michalak — Full-Stack Developer",
   description:
-    "Full-Stack developer working in the Next.js / TypeScript stack — Prisma, PostgreSQL, Supabase, auth, testing and CI. Computer Science student, open to remote roles worldwide.",
+    "Full-Stack developer working in the Next.js / TypeScript stack — Prisma, PostgreSQL, Supabase, auth, testing and CI. ICT (Teleinformatics) student based in Wrocław, open to on-site, hybrid and remote roles.",
   keywords: [
     "Mikołaj Michalak",
     "Full-Stack Developer",

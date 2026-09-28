@@ -20,7 +20,7 @@ export default function Contact() {
           <em className="not-italic text-accent">together</em>
         </h2>
         <p className="reveal mb-12 text-base leading-[1.7] text-muted">
-          I&apos;m looking for a remote full-stack role I can do from anywhere.
+          I&apos;m looking for a full-stack developer role.
           If you have an open position or just want to talk, reach out — I
           respond fast.
         </p>
