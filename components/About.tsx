@@ -28,7 +28,7 @@ export default function About() {
           <p className="mb-12 text-[17px] leading-[1.8] text-muted [&_strong]:font-medium [&_strong]:text-ink">
             I&apos;m an ICT (Teleinformatics) student at{" "}
             <strong>Wrocław University of Science and Technology</strong> and a
-            self-taught <strong>full-stack developer</strong> working in the
+            <strong>full-stack developer</strong> working in the
             Next.js / TypeScript stack. I design, build and ship real, deployed
             products end-to-end — from React UIs to <strong>PostgreSQL</strong>{" "}
             databases on <strong>Supabase</strong>, authentication, validation,
@@ -86,7 +86,7 @@ export default function About() {
               label="English"
               value={
                 <>
-                  <span className="font-mono text-accent">B2</span>{" "}
+                  <span className="font-mono text-accent">C1</span>{" "}
                   Professional working
                 </>
               }

@@ -36,7 +36,7 @@ export default function Hero() {
           </div>
           <div className="text-right">
             <div className="font-display text-4xl font-bold leading-none text-ink">
-              B2
+              C1
             </div>
             <div className="mt-1 font-mono text-[11px] uppercase tracking-[0.08em] text-dim">
               English

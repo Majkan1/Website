@@ -145,12 +145,12 @@ export const projects: Project[] = [
   },
   {
     num: "04",
-    title: "Cocktail Browser",
+    title: "Solvro Cocktails",
     description:
-      "React + TypeScript SPA browsing 250 cocktails from the KNS Cocktails API. Includes real-time search, pagination (5 pages × 50), favourites checkbox, and TypeScript interfaces for the full data model.",
-    stack: ["React 19", "TypeScript", "React Router v6", "REST API", "GitHub Pages"],
-    liveUrl: "https://majkan1.github.io/Cocktail-App/",
-    githubUrl: "https://github.com/Majkan1/Cocktail-App",
+      "Cocktail browser built with Next.js on the Solvro Cocktails API as the KN Solvro recruitment task. Paginated list with search by name, a details page with ingredients and measures, and favourites saved in localStorage. Server state is handled with TanStack Query, shared client state with Jotai, and the responsive UI is built with shadcn/ui.",
+    stack: ["Next.js 16", "TypeScript", "TanStack Query", "Jotai", "shadcn/ui · Tailwind", "Vercel"],
+    liveUrl: "https://solvro-cocktails-app.vercel.app",
+    githubUrl: "https://github.com/Majkan1/solvro-cocktails",
   },
   {
     num: "05",
