@@ -136,21 +136,21 @@ export const projects: Project[] = [
   },
   {
     num: "03",
-    title: "Real-Time Weather Dashboard",
-    description:
-      "Live weather app using the Open-Meteo REST API. Features 500ms debounce, dynamic day/night weather icons, memoised components, and a fully responsive layout.",
-    stack: ["React 19", "JavaScript", "REST API", "GitHub Pages", "CSS"],
-    liveUrl: "https://majkan1.github.io/weather-app/",
-    githubUrl: "https://github.com/Majkan1/weather-app",
-  },
-  {
-    num: "04",
     title: "Solvro Cocktails",
     description:
       "Cocktail browser built with Next.js on the Solvro Cocktails API as the KN Solvro recruitment task. Paginated list with search by name, a details page with ingredients and measures, and favourites saved in localStorage. Server state is handled with TanStack Query, shared client state with Jotai, and the responsive UI is built with shadcn/ui.",
     stack: ["Next.js 16", "TypeScript", "TanStack Query", "Jotai", "shadcn/ui · Tailwind", "Vercel"],
     liveUrl: "https://solvro-cocktails-app.vercel.app",
     githubUrl: "https://github.com/Majkan1/solvro-cocktails",
+  },
+  {
+    num: "04",
+    title: "Real-Time Weather Dashboard",
+    description:
+      "Live weather app using the Open-Meteo REST API. Features 500ms debounce, dynamic day/night weather icons, memoised components, and a fully responsive layout.",
+    stack: ["React 19", "JavaScript", "REST API", "GitHub Pages", "CSS"],
+    liveUrl: "https://majkan1.github.io/weather-app/",
+    githubUrl: "https://github.com/Majkan1/weather-app",
   },
   {
     num: "05",
